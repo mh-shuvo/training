@@ -1,4 +1,4 @@
-# PHP CLI, Exception Handling, Build Simple Web Application Using HTML, PHP, Apache
+# Web Premier
 
 ## Topic covered
 * Cookie, Session
@@ -14,4 +14,4 @@
 
 # Class Recordings
 You can find the class recording by following the URL
-[Youtube Link](https://youtu.be/RTkQ3c7z9qo)
+[Youtube Link](https://youtu.be/GT2m0JRwTh4)
