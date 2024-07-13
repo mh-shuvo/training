@@ -1,0 +1,40 @@
+.container h2{
+    text-align: center;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    height: 30px;
+    width: 70px;
+    border: 1px solid rgb(21, 108, 93);
+    text-align: center;
+    line-height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(19, 133, 95);
+    border-radius: 10px;
+    color: white;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.menu ul li:hover{
+    background-color: rgb(16, 94, 68);
+}
+
+.content{
+    height: 500px;
+    min-height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}
