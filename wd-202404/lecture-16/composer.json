@@ -1,0 +1,22 @@
+{
+    "name": "mehdi/lecture-16",
+    "description": "Test project",
+    "autoload": {
+        "psr-4": {
+            "Acme\\Log\\Writer\\": "acme-log-writer/lib/",
+            "Food\\Order\\": "order"
+        },
+        "classmap": ["./app"],
+        "files": ["./src/helper.php"]
+    },
+    "authors": [
+        {
+            "name": "Mohammad Mehedi Hasan",
+            "email": "mehedifci907@gmail.com"
+        }
+    ],
+
+    "require": {
+        "rivsen/hello-world": "^0.1.0"
+    }
+}
