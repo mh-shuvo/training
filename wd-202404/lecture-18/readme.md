@@ -2,10 +2,10 @@
 
 ## Topics
 
-* Develop simple routing like CI
-* Find the problem from CI routing
-* PHP regular expression
-* Develop Routing like Laravel
+* Refactor the Custom Routing
+* Add more HTTP Verb
+* Complete Routing
+* Discuss about Project 
 
 ## Note
 
@@ -17,8 +17,8 @@ If you want to use this code by composer then you have to following the steps
 `
 
 ## Class Recording
-Unfortunately I forgot to record the class
+You can find the class recording by following the URL
+[Youtube Link](https://youtu.be/PYEVWl4MjcA)
 
 ## Assignement
-* Develop routing method for POST, DELETE
-* Refactor the code
+Practice on today code. Try to understand the core motivation behind the custom routing.

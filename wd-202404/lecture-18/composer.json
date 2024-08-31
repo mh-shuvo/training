@@ -1,0 +1,17 @@
+{
+    "name": "mehedi/routing",
+    "description": "Develop PHP routing like laravel",
+    "authors": [
+        {
+            "name": "Mohammad Mehedi Hasan",
+            "email": "mehedifci907@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\Core\\": "_core",
+            "App\\": "app"
+        }
+    },
+    "require": {}
+}
