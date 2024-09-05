@@ -1,0 +1,20 @@
+{
+    "name": "bitbyteplay/wdp",
+    "description": "The E-commerce project for batch WD-042024",
+    "type": "project",
+    "license": "BitBytePlay@2024",
+    "autoload": {
+        "psr-4": {
+            "Bitbyteplay\\Wdp\\": "_core/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MD. Mehedi Hasan",
+            "email": "mehedifci907@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
