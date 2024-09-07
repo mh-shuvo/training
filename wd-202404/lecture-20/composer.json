@@ -1,0 +1,25 @@
+{
+    "name": "atova/eshopper",
+    "description": "This is a E-Commerce website which is developed during the training period.",
+    "type": "project",
+    "license": "ATOVA@Mehedi",
+    "autoload": {
+        "psr-4": {
+            "Atova\\Eshoper\\": "_core/",
+            "App\\":"app/"
+        },
+        "files": [
+            "_core/Support/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Mohammad Mehedi Hasan",
+            "email": "mehedifci907@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^5.6@dev"
+    }
+}
