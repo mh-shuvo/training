@@ -31,23 +31,20 @@ You can find the class recording by following the URL
 Service Container
 Singleton Pattern
 
-`
-class A{}
+    class A{}
 
-$a = new A();
-$a->projectName = "E-Shopper";
+    $a = new A();
+    $a->projectName = "E-Shopper";
 
-$b = new A();
+    $b = new A();
 
-class Product{
-    public function __construct(Category $cat, Suppliar $sup){
+    class Product{
+        public function __construct(Category $cat, Suppliar $sup){
 
+        }
     }
-}
 
-$cat = new Category();
-$sup = new Suppliar();
-$product = new Product($cat,$sup);
+    $cat = new Category();
+    $sup = new Suppliar();
+    $product = new Product($cat,$sup);
 
-
-`
