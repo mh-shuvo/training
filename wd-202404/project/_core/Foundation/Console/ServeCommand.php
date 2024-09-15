@@ -14,9 +14,9 @@ class ServeCommand  extends Command{
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        try{
-
-            $result = shell_exec("php -S localhost:8000");
+        try{    
+            $port=env("APP_PORT",8000);
+            $result = shell_exec(sprintf("php -S localhost:%d",$port));
 
         }catch(\Exception $exc){
             $output->writeln($exc->getMessage());

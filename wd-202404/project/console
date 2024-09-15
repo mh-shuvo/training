@@ -6,6 +6,11 @@ use Symfony\Component\Console\Application;
 use Atova\Eshoper\Foundation\Console\ServeCommand;
 use Atova\Eshoper\Foundation\Console\UpCommand;
 use Atova\Eshoper\Foundation\Console\DownCommand;
+use Dotenv\Dotenv;
+
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 
 $application = new Application();
 

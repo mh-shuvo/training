@@ -5,7 +5,7 @@ function env($key,$default){
 }
 
 function config($key,$default=null){
-    $container = Atova\Eshoper\Abstract\Container::getInstance();
+    $container = getApplicationContainerInstance();
     $configValues = $container->get("config",[]);
 
     $keys = explode('.', $key);
@@ -21,9 +21,30 @@ function config($key,$default=null){
     return $configValues;
 }
 
+function getApplicationContainerInstance(){
+    return Atova\Eshoper\Abstract\Container::getInstance();
+}
+
+
 function base_path($path=null)
 {
-    $container = Atova\Eshoper\Abstract\Container::getInstance();
+    $container = getApplicationContainerInstance();
     return $container->get("PROJECT_ROOT").'/'.$path;
+}
 
+function displayException($exceptionMessage,$code=404){
+    echo $exceptionMessage; 
+    return;
+}
+
+
+function view($fileName,$data=[]){
+
+    $absoluteFilePath = "views/".$fileName.".php";
+
+    if(!file_exists(base_path($absoluteFilePath))){
+       return displayException(sprintf("Views %s not found.",base_path($absoluteFilePath)));
+    }
+
+    require_once base_path($absoluteFilePath);
 }
