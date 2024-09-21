@@ -1,0 +1,11 @@
+.student-pass{
+    background-color: green;
+}
+
+.student-fail{
+    background-color: red;
+}
+
+.student-absent{
+    background-color: yellowgreen;
+}
