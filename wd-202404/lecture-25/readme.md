@@ -23,5 +23,4 @@
 
 ## Class Recording
 You can find the class recording by following the URL
-[Youtube Link Part 1](https://youtu.be/_eb6dEK2Rcs)
-[Youtube Link Part 2](https://youtu.be/_eb6dEK2Rcs)
+[Youtube Link](https://youtu.be/mzUymHWm4Zs)
