@@ -1,0 +1,3 @@
+`PDO::prepare()` and `bindParam()` are designed to handle data within the query, not SQL identifiers like table names. In your case, the `:table_name` placeholder is treated as a string literal, so the table names are quoted, resulting in tables named literally as `':table_name'`.
+
+In SQL, you cannot use parameter binding for table names or column names because they are identifiers, not values. You have to dynamically build the SQL string for each table instead of using `bindParam()`.
